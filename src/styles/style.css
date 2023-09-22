@@ -333,3 +333,65 @@ h3 {
 .background-brown .distortion-title {
   color: var(--color-white);
 }
+
+/* subscription section */
+
+.subscription {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 55px;
+
+  color: var(--color-white);
+  background-color: var(--color-primary-dark);
+}
+
+.subscription-title {
+  color: var(--color-white);
+}
+
+.subscription-label {
+  display: block;
+  margin-bottom: 0.5em;
+
+  font-size: 18px;
+
+  cursor: text;
+}
+
+.subscription-fieldset {
+  display: flex;
+}
+
+.subscription-input {
+  box-sizing: border-box;
+  padding: 15px;
+  width: 415px;
+  height: 50px;
+
+  font-family: var(--font-main);
+
+  border: none;
+  outline: none;
+}
+
+.subscription-button {
+  width: 70px;
+  height: 50px;
+
+  background-image: url("../images/send.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+.subscription-agreement {
+  margin: 0;
+
+  font-size: 12px;
+}
+
+.subscription-link {
+  color: inherit;
+}
