@@ -29,3 +29,42 @@
   font-family: "Neucha Font";
   src: url("../fonts/Neucha-Regular.ttf");
 }
+
+/* tag styles */
+
+html {
+  font-size: 16px;
+  line-height: 1.6em;
+  font-family: var(--font-main);
+
+  color: var(--color-dark);
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+
+  font-weight: normal;
+  line-height: 1.2em;
+  font-family: var(--font-title);
+
+  color: var(--color-primary);
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
