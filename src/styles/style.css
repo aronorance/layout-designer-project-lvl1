@@ -68,3 +68,93 @@ h2 {
 h3 {
   font-size: 34px;
 }
+
+/* general styles */
+
+.container {
+  margin: 0 auto;
+  padding: 100px 0;
+  max-width: 1110px;
+}
+
+.background {
+  position: relative;
+}
+
+.background::before,
+.background::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  content: "";
+}
+
+.background::after {
+  top: 0;
+  z-index: -3;
+}
+
+.background-light::before,
+.background-brown::before {
+  z-index: -2;
+
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+}
+
+.background-light::after {
+  background-color: var(--color-light);
+}
+
+.background-brown::after {
+  background-color: var(--color-brown);
+}
+
+.background-primary-dark::after {
+  background-color: var(--color-primary-dark);
+}
+
+.background-brown {
+  color: var(--color-white);
+}
+
+.columns {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.columns-title {
+  column-span: all;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+
+  font-weight: bold;
+  font-size: 14px;
+  font-family: var(--font-main);
+  text-transform: uppercase;
+
+  color: var(--color-white);
+  background-color: var(--color-brown);
+}
+
+.background-brown .columns-title {
+  color: var(--color-brown);
+  background-color: var(--color-white);
+}
+
+.columns-item {
+  break-inside: avoid;
+  margin-top: 0;
+}
+
+.button {
+  background-color: var(--color-primary);
+}
+
+.button:hover {
+  background-color: var(--color-tangerine-dark);
+}
