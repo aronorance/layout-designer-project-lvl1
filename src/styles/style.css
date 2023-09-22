@@ -158,3 +158,38 @@ h3 {
 .button:hover {
   background-color: var(--color-tangerine-dark);
 }
+
+/* header section */
+
+.header {
+  position: relative;
+}
+
+.header-title {
+  margin-bottom: 185px;
+}
+
+.header-title-dark {
+  color: var(--color-dark);
+}
+
+.header-image {
+  position: absolute;
+  top: 55px;
+  right: -270px;
+  z-index: -1;
+  height: 525px;
+}
+
+.header-button {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: calc(50% + 15px);
+  padding: 12px 24px;
+
+  font-weight: bold;
+  text-transform: uppercase;
+
+  color: var(--color-white);
+  text-decoration: none;
+}
