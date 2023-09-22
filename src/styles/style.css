@@ -12,3 +12,20 @@
   --font-main: "Open Sans", sans-serif;
   --font-title: "Neucha Font", cursive;
 }
+
+@font-face {
+  font-weight: normal;
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Neucha Font";
+  src: url("../fonts/Neucha-Regular.ttf");
+}
