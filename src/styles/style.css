@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #fe8a02;
+  --color-primary-dark: #42413c;
+  --color-white: #fff;
+  --color-white-50: #d7ccc0;
+  --color-dark: #2a2626;
+  --color-dark-50: #908d8b;
+  --color-light: #f5f4f0;
+  --color-brown: #b09a81;
+  --color-blue: #1085c5;
+  --color-tangerine-dark: #ea7600;
+  --font-main: "Open Sans", sans-serif;
+  --font-title: "Neucha Font", cursive;
+}
