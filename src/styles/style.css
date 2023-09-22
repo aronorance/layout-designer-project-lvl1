@@ -151,6 +151,11 @@ h3 {
   margin-top: 0;
 }
 
+.columns-item:first-of-type,
+.columns-item:last-of-type {
+  margin-bottom: 0;
+}
+
 .button {
   background-color: var(--color-primary);
 }
@@ -166,7 +171,7 @@ h3 {
 }
 
 .header-title {
-  margin-bottom: 185px;
+  margin-bottom: calc(185px + 1rem);
 }
 
 .header-title-dark {
