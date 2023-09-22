@@ -395,3 +395,16 @@ h3 {
 .subscription-link {
   color: inherit;
 }
+
+/* contacts section */
+
+.contacts {
+  margin-top: 60px;
+
+  font-size: 14px;
+  text-align: center;
+}
+
+.contacts-link {
+  color: var(--color-blue);
+}
