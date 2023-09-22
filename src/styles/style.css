@@ -290,3 +290,46 @@ h3 {
   color: var(--color-white);
   background-color: var(--color-primary);
 }
+
+/* distortion section */
+
+.distortion {
+  display: flex;
+  column-gap: 30px;
+}
+
+.distortion-image {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.distortion-header,
+.distortion-description {
+  margin: 0;
+
+  line-height: 1.2em;
+  font-family: var(--font-title);
+}
+
+.distortion-header {
+  font-size: 24px;
+
+  color: var(--color-dark-50);
+}
+
+.distortion-title {
+  margin-bottom: 30px;
+
+  color: var(--color-dark);
+}
+
+.distortion-description {
+  font-size: 34px;
+}
+
+.background-brown .distortion-header {
+  color: var(--color-white-50);
+}
+
+.background-brown .distortion-title {
+  color: var(--color-white);
+}
